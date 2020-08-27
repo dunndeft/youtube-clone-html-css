@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Home UI Clone - HTML and CSS</title>
+</head>
+
+<body>
+    <div class="menuBar">
+        <div class="logo">
+            <i class="material-icons">menu</i>
+            <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
+                alt="">
+        </div>
+        <div class="search">
+            <form action="">
+                <input type="text">
+                <button><i class="material-icons">search</i></button>
+            </form>
+        </div>
+        <div class="icons">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </div>
+    
+    <!-- Left Sidebar Nav -->
+    <div class="mainBody">
+        <div class="categories">
+            <div class="categoriesSection">
+                <span class="category active-span">
+                    <i class="material-icons active">home</i>
+                    <span>Home</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subcriptions</span>
+                </span>
+            </div>
+            <hr>
+            <div class="categoriesSection">
+                <span class="category">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your videos</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked videos</span>
+                </span>
+            </div>
+            <hr>
+            <div class="categoriesSection">
+                <h4>SUBSCRIPTIONS</h4>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Traversy Media</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Zaio</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Donut Media</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Web Dev Simplified</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Layout Land</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>The Coding Train</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Coder Coder</span>
+                </span>
+            </div>
+        </div>
+        
+        <!-- Video Tile Section -->
+        <div class="videos">
+            <h1>Recommended</h1>
+            <div class="videosGrid">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEfyVN3zWLvtA/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=S-7FlyF4_TOwIxA8xvudVn6nMpNcfOga4RckOo5WifY"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn skills that matter</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
